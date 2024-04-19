@@ -5,8 +5,13 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #8A51FC;
+body{
+    background-image: url(./assets/mascara.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
 }
 
 .logo {
@@ -23,13 +28,13 @@ main {
     width: 375px;
     border-radius: 20px;
     margin: 0 auto;
-    margin-top: 5px;
-    background-color: #B0C4DE;
+    margin-top: 100px;
+    background-color: #B8860B;
     padding: 44px 24px 23px;
 }
 
 label {
-    color: #777777;
+    color: #fff;
     font-weight: 700;
     font-size: 14px;
     margin-bottom: 12px;
@@ -52,12 +57,12 @@ input {
     width: 100%;
     margin-top: 12px;
     padding-left: 14px;
-    
+
     font-weight: 700;
 }
 
 button {
-    background: #772FD3;
+    background: #696969;
     height: 48px;
     border-radius: 5px;
     width: 100%;
@@ -78,7 +83,7 @@ button:active {
 }
 
 section {
-    border: 1px solid #772FD3;
+    border: 1px solid #696969;
     border-radius: 20px;
     margin-top: 22px;
     padding: 12px;
@@ -99,11 +104,13 @@ section {
 }
 
 .currency {
- color: #777777;
- font-size: 14px;
+    color: #777777;
+    font-size: 14px;
 }
-.currency-value, .currency-value-to-convert {
-color: #555555;
-font-weight: 700;
-font-size: 20px;
+
+.currency-value,
+.currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
 }
